@@ -18,6 +18,8 @@ struct QuadraticContentView: View {
     @State private var showHidden: Bool = false
     
     
+    var a = 1
+    
     
     
     var rootType: Int {
