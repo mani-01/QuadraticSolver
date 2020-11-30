@@ -17,11 +17,7 @@ struct QuadraticContentView: View {
     @State private var answerTextContent = "enter values for a, b and c above"
     @State private var showHidden: Bool = false
     
-    
-    var a = 1
-    
-    
-    
+
     var rootType: Int {
         var inputs: [Double] = []
         for i in inputsString.enumerated() {
